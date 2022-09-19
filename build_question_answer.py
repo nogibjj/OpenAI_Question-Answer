@@ -9,7 +9,7 @@ def submit_question(text):
     """This submits a question to the OpenAI API"""
 
     # openai.api_key = os.getenv("OPENAI_API_KEY")
-    openai.api_key = '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'
+    openai.api_key = '**'
     prompt = text
 
     result = openai.Completion.create(
